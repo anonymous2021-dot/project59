@@ -1,0 +1,48 @@
+body{
+  text-align: center;
+ background: orangered;
+  background-repeat:no-repeat;
+  font-size:19px;
+    margin: 0;}
+
+
+
+h1{
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: 'Odibee Sans', cursive;
+    
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: serif;
+}
+
+.links{
+    float: left;
+    color: crimson;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 18px;
+    
+}
+
+.links:hover{
+    background-color: white;
+}
+
+.menu{
+    list-style: none;
+    font-family: cursive;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
